@@ -1,0 +1,33 @@
+<div class="container">
+  <form>
+    <div class="tasks-main" style="height:189px">
+    
+      <ul class="table-header table-inputs">
+        <li>Task</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+        <li>hours Worked</li>
+      </ul>
+      <div class="input-div" *ngFor="let index of incriment">
+        <input type="text" placeholder="Enter Task" class="table-input-box" [(ngModel)]="taskHours.task[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.monHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.tueHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.wedHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.thuHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.friHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.satHours[index]" [ngModelOptions]="{standalone: true}" >
+        <input type="number" placeholder="Enter Hours" class="table-input-box" [(ngModel)]="taskHours.sunHours[index]" [ngModelOptions]="{standalone: true}" >
+        {{taskHours.task[index]}}
+      </div>
+    </div>
+   
+    <button (click)="addRow()">Add New Task</button>
+    <button (click)="removeRow()">Remove A Task</button>
+    <button type="submit">Save</button>
+  </form>
+  
+</div>

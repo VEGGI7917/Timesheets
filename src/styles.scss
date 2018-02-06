@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #c1d7d7;
+    font-family: 'Times New Roman', Times, serif
+}
+.container{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

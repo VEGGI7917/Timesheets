@@ -1,0 +1,42 @@
+
+
+.title{
+    text-align: center;
+    font-size: 100px;
+    color: #1e2f2f
+}
+.day-box{
+    padding-top: 20px;
+    width:9vw;
+    margin-left: 1.2vw;
+    height: 8vw;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    background-color: #83afaf;
+    float: left;
+    text-align: center;
+    border: none;
+    color:white;
+}
+    
+
+
+
+.btns{
+    width: 5vw;
+    height: 8vw;
+    text-align: center;
+}  
+.btns:hover{
+    background-color: #639c9c;
+    cursor: pointer;
+
+}
+.row{
+    padding: 2%;
+}
+
+.day-box>.date{
+
+    margin-top: 3vw;
+}

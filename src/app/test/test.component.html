@@ -1,0 +1,16 @@
+<div class="container">
+  <!--<div class="title"><strong>THE CALENDER</strong></div>-->
+  <div class="row">
+  
+    <button  class="day-box btns" (click)="lastWeek()" style="margin-left: 3.4vw;">Previous</button>
+    <div class="day-box"><p class="day">{{dayarray[0]}}</p><p class="date">{{datearray[0] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[1]}}</p><p class="date">{{datearray[1] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[2]}}</p><p class="date">{{datearray[2] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[3]}}</p><p class="date">{{datearray[3] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[4]}}</p><p class="date">{{datearray[4] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[5]}}</p><p class="date">{{datearray[5] | date: "MMM d, y"}}</p></div>
+    <div class="day-box"><p class="day">{{dayarray[6]}}</p><p class="date">{{datearray[6] | date: "MMM d, y"}}</p></div>
+    <button class="day-box btns"(click)="nextWeek()">next</button>
+  </div>
+  
+  </div>

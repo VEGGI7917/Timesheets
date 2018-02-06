@@ -1,0 +1,33 @@
+.tasks-main{
+    clear: both;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.table-header li{
+    display: inline;
+}
+
+.table-inputs li{
+    width:9vw;
+    border:0px;
+    margin-left: 1.2vw;
+    background-color: #5a8c8c;
+    text-align: center;
+    color:white;
+    float: left;
+    text-transform: uppercase;
+    height: 25px;
+}
+.table-input-box{
+    width:9vw;
+    margin-left: 0.935vw;
+    border: 0px;
+    height: 25px;
+}
+.input-div{
+    clear: both;
+    margin-top: 1px;
+    margin-left: 4px;
+ 
+   
+}
