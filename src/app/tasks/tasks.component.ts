@@ -8,22 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class TasksComponent implements OnInit {
   incriment=[0];
   i:number=0;
-  tHArray=[];
-  taskHours:object={
-    task:["task"],
-    monHours:[0] ,
-    tueHours:[0],
-    wedHours:[0],
-    thuHours:[0],
-    friHours:[0],
-    satHours:[0],
-    sunHours:[0],
-
-   }
   constructor() { }
 
   ngOnInit() {
-    this.tHArray.push(this.taskHours);
   
   }
 
